@@ -92,12 +92,12 @@ header {
     transition: .3s;
     background: white;
     z-index: 222;
+    overflow: hidden;
 }
 
-header.activ {
-    overflow: visible;
+header.show {
+    height: 380px;
 }
-
 header.activ {
     transition: .4s;
     position: fixed;
