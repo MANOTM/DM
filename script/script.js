@@ -2,7 +2,8 @@ let showNav = document.getElementById("show-nav"),
   navBar = document.querySelector("header .nav");
 
 showNav.onclick = () => {
-  navBar.classList.toggle("activ");
+    navBar.classList.toggle("activ");
+  document.querySelector("header").classList.toggle("show");
 };
 
 let header=document.querySelector('header')
